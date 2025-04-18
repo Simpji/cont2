@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Code</title>
+    <!-- boxicons cdn -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="code1">
+        <header>
+            <h1><span>Si</span>mple Coding</h1>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <ul class="navbar menuDropdown">
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </header>
+        <!-- Box1 -->
+        <div class="Box1">
+            <img src="/img/about.jpeg" alt="">
+            <div class="best">
+                <h1><span>Co</span>ntact us</h1>
+                <p>We are here to help you 24/7 anytime if you need any help from our side</p>
+            </div>
+        </div>
+        <!-- contact us -->
+        <div class="contactks">
+            <h2>Message Us</h2>
+            <form action="" method="">
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+        
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="oncontact">
+            <div class="oncontact1">
+               <p class="ion"><i class='bx bxs-envelope'></i></p>
+                 <p>Email</p>
+                <p>Product Hunt posting digital e-vape tool. Roam Research girlfriend Medium blogger Seoul south korea.</p>
+            </div>
+            <div class="oncontact1">
+               <p class="ion"><i class='bx bxs-phone-call'></i></p>
+                 <p>Email</p>
+                <p>Friends and Family raising, rationalist Job-seeker LTV/CAC focused mentally exhausted coder flex.</p>
+            </div>
+            <div class="oncontact1">
+              <p class="ion"><i class='bx bxs-hand-right'></i></p>
+                 <p>Email</p>
+                <p>Crypto-nerd Notion boyfriend. Nostalgic YikYaking Instagram Employee. Alexis Ohanian-tweeted overhyped.</p>
+            </div>
+        </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-container">
+            <!-- Footer Section 1: Company Info -->
+            <div class="footer-section">
+                <h1>Simple Code</h1>
+                <p>Providing quality code solutions for developers and businesses.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" class="social-icon">FB</a>
+                    <a href="#" target="_blank" class="social-icon">TW</a>
+                    <a href="#" target="_blank" class="social-icon">IG</a>
+                </div>
+            </div>
+    
+            <!-- Footer Section 2: Quick Links -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Footer Section 3: Contact Info -->
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li><strong>Phone:</strong> (123) 456-7890</li>
+                    <li><strong>Email:</strong> info@simplecode.com</li>
+                    <li><strong>Location:</strong> 123 Code Street, Developer City</li>
+                </ul>
+            </div>
+    
+            <!-- Footer Section 4: Newsletter Signup -->
+            <div class="footer-section">
+                <h3>Join Our Newsletter</h3>
+                <p>Stay updated with our latest posts and news.</p>
+                <form action="#">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+     </div>
+    </div>
+    <script>
+        const menuIcon = document.querySelector("#menu-icon");
+        const menuDropdown = document.querySelector(".menuDropdown")
+
+        menuIcon.addEventListener("click", () => {
+            menuDropdown.classList.toggle("menuActive")
+        })
+    </script>
+ </body>
+</html>
