@@ -477,47 +477,6 @@ footer button:hover {
     height: 300px;
     object-fit: cover;
 }
-/* .about{
-    width: 60%;
-    margin:0 auto;
-}
- .about{
-    margin-top: 10%;
- }
-.about1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.about2{
-    width: 60%;
-    margin: auto;
-}
-.about2 img{
-    width: 450px;
-    height: 400px;
-    object-fit: cover;
-}
-.about4{
-    color: #800080d9;
-}
-.about3{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 3%;
-}
-.about3 h1{
-    display: block;
-}
-.about3 img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: 2%;
-} */
-
 
 .about {
     max-width: 1100px;
@@ -667,7 +626,7 @@ footer button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8%;
+    gap: 3%;
     flex-wrap: wrap;
   }
   
@@ -901,14 +860,17 @@ button:hover {
      }
      .feature{
         width: 300px;
-        height: 350px;
+        height: 360px;
         background: #fff;
         box-shadow: 3px 3px 12px rgba(128, 0, 128, 0.3);
         border-radius: 20px; 
         /* margin: 2% 0; */
         margin-bottom: 20px;
-        padding-top: 3%;
+        padding-top: 5%;
         text-align: center;
+     }
+     .feature h2{
+        padding:0 5%;
      }
      .feature img{
         height: 200px;
@@ -1000,15 +962,20 @@ button:hover {
       
 
      .about-image img {
-        width: 80%;
+        width: 100%;
+        margin: auto;
         height: 100%; 
         object-fit: cover;
         border-radius: 10px;
       }
     .about-content {
-        width: 300px;
+        width: 80%;
         margin:0 auto;
         min-width: 300px;
+    }
+
+    .about-content h1{
+        font-size: 20px;
     }
 
     .about-image {
@@ -1076,26 +1043,6 @@ button:hover {
         text-align: center;
       }
        
-
-    /* .stil{
-        width: 100;
-    }
-    .still{
-       flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 5%;
-    }
-    .still1 img{
-        width: 300px;
-    }
-    .still2{
-        width: 300px;
-    }
-    .still2 h1{
-        text-align: center;
-        font-size: 30px;
-    } */
     .contactks{
         text-align: center;
         margin:5% 3% 0 3%;
