@@ -866,7 +866,7 @@ button:hover {
         border-radius: 20px; 
         /* margin: 2% 0; */
         margin-bottom: 20px;
-        padding-top: 5%;
+        padding-top:0 5%;
         text-align: center;
      }
      .feature h2{
