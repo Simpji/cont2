@@ -809,11 +809,10 @@ button:hover {
         position: relative;
         text-align: center;
         margin: auto;
+        padding: 2% 0;
     }
     .best h1{
         font-size: 30px;
-        color: #fff;
-        padding: 2%;
      }
      .best p{
          font-size: 18px;
