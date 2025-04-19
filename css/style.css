@@ -872,6 +872,10 @@ button:hover {
      .feature h2{
         padding:0 5%;
      }
+     .feature p{
+        padding: 0 8%;
+        text-align: center;
+     }
      .feature img{
         height: 200px;
         object-fit: cover;
